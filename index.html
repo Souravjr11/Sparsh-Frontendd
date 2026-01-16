@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Management Company</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+    <div class="nav-container">
+  
+      <!-- LEFT: LOGO -->
+      <div class="logo">
+        <img src="images/Screenshot (109).png" alt="My Event Company">
+        <span class = "company-name">SPARSH GROUP OF EVENTS</span>
+      </div>
+  
+      <!-- CENTER: MENU -->
+      <nav id="navMenu">
+        <a href="#about">About</a>
+        <a href="#bands">Bands</a>
+        <a href="#booking">Book</a>
+      </nav>
+  
+      <!-- RIGHT: LOGIN -->
+      <div class="nav-right">
+        <a href="javascript:void(0)" class="login-btn" id="loginBtn" onclick="openLogin()">Login</a>
+        <a href="javascript:void(0)" class="login-btn logout" id="logoutBtn" style="display:none;">Logout</a>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      </div>
+  
+    </div>
+  </header>
+  
+  <section id="about" class="about-section">
+    <h2>About Our Event Company</h2>
+  
+    <p class="about-desc">
+      We are a professional event management company specializing in weddings,
+      corporate events, concerts, and live music shows. Our previous works reflect
+      our creativity, passion, and commitment to excellence.
+    </p>
+  
+    <h3 class="works-title">Our Previous Works</h3>
+  
+    <div class="works-scroll">
+      <img src="images/Screenshot (68).png" alt="Event work 1">
+      <img src="images/Screenshot (109).png" alt="Event work 2">
+      <img src="images/Screenshot 2025-02-05 134644.png" alt="Event work 3">
+      <img src="images/Screenshot 2025-02-08 002910.png" alt="Event work 4">
+      <img src="images/Screenshot 2025-06-18 150715.png" alt="Event work 5">
+      <img src="images/Screenshot 2025-06-25 002258.png" alt="Event work 6">
+    </div>
+  </section>
+  
+  
+
+  <!-- VIDEO SECTION -->
+<section class="video-section">
+    <h2>Our Events in Action</h2>
+    <p>Experience the energy, music, and unforgettable moments we create</p>
+  
+    <div class="video-wrapper">
+      <video controls poster="images/Screenshot (109).png">
+        <source src="images/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="bands" class="bands-section">
+    <h2>Our Musical Bands</h2>
+    <p class="bands-desc">Choose from our professional bands for every type of event</p>
+  
+    <div class="bands-grid">
+      <!-- BAND CARD -->
+      <div class="band-card">
+        <img src="images/Screenshot (68).png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot (109).png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-02-05 134644.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-02-05 134644.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-02-08 002910.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-06-18 150715.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot (68).png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-06-18 150715.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot (109).png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="band-card">
+        <img src="images/Screenshot 2025-06-25 002258.png" alt="Rock Fusion Band">
+      
+        <div class="band-content">
+          <h3>Rock Fusion Band</h3>
+          <p class="band-genre">Genre: Rock • Pop</p>
+      
+          <p class="band-details">
+            A high-energy live band delivering powerful rock anthems mixed with modern pop hits.
+            Perfect for concerts, college fests, and night events.
+          </p>
+      
+          <ul class="band-info">
+            <li>🎤 5+ Years Experience</li>
+            <li>🎶 Ideal for Live Concerts</li>
+            <li>📍 Available PAN India</li>
+          </ul>
+      
+          <button onclick="openWhatsApp()">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking-section" id="booking">
+    <div class="booking-container">
+  
+      <h2>Book Your Event Now</h2>
+      <p>
+        Planning a wedding, concert, party or corporate event?
+        Get in touch with us instantly and reserve your preferred band.
+      </p>
+  
+      <div class="booking-box">
+        <div class="booking-info">
+          <h3>Why Book With Us?</h3>
+          <ul>
+            <li>✔ Professional & verified bands</li>
+            <li>✔ On-time performance guarantee</li>
+            <li>✔ Custom music as per your event</li>
+            <li>✔ Easy & quick WhatsApp booking</li>
+          </ul>
+        </div>
+  
+        <div class="booking-action">
+          <h3>Quick Booking</h3>
+          <p>Click below to connect with us on WhatsApp</p>
+  
+          <form id="bookingForm" class="booking-form">
+            <input type="text" id="bookName" placeholder="Your Name" required>
+            <input type="tel" id="bookPhone" placeholder="Phone Number" required>
+            <input type="text" id="bookBand" placeholder="Band Name (e.g. Rock Fusion)" required>
+            <input type="date" id="bookDate" required>
+          
+            <button type="submit" class="whatsapp-btn">✅ Submit Booking</button>
+            <p id="bookMsg"></p>
+          
+            <button type="button" class="whatsapp-btn" onclick="openWhatsApp()" style="margin-top:10px;">
+              📲 Chat on WhatsApp
+            </button>
+          </form>
+          
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="footer-container">
+  
+      <!-- COMPANY INFO -->
+      <div class="footer-box">
+        <h3>My Event Company</h3>
+        <p>
+          We provide professional musical bands and event entertainment
+          services for weddings, concerts, corporate events, and private parties.
+        </p>
+      </div>
+  
+      <!-- QUICK LINKS -->
+      <div class="footer-box">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#bands">Bands</a></li>
+          <li><a href="#booking">Book Slot</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </div>
+  
+      <!-- CONTACT -->
+      <div class="footer-box">
+        <h4>Contact Us</h4>
+        <p>📍 Kolkata, India</p>
+        <p>📞 +91 8420605823</p>
+        <p>✉️ souravdhara087@gmail.com</p>
+      </div>
+  
+      <!-- SOCIAL -->
+      <div class="footer-box">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#">🌐 Website</a>
+          <a href="https://www.facebook.com/sourav.dhara.54738">📘 Facebook</a>
+          <a href="https://www.instagram.com/souravjr_11/">📸 Instagram</a>
+          <a href="#">▶️ YouTube</a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="footer-bottom">
+      © 2026 My Event Company. All Rights Reserved.
+    </div>
+  </footer>
+  <div class="login-modal" id="loginModal">
+    <div class="login-box">
+      <span class="close-btn" onclick="closeLogin()">✖</span>
+  
+      <h2>User Login</h2>
+  
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required>
+      
+        <input type="password" id="password" placeholder="Password" required>
+      
+        <!-- Confirm password (hidden by default) -->
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" style="display:none;">
+      
+        <button type="submit" id="loginSubmitBtn">Login</button>
+      
+        <!-- Register button (hidden by default) -->
+        <button type="button" id="registerBtn" class="register-btn" style="display:none;">
+          Create Account
+        </button>
+      
+        <!-- "Create new account" link (shows once) -->
+        <p class="toggle-auth">
+          <a href="javascript:void(0)" id="toggleRegister">Create new account</a>
+        </p>
+      
+        <p id="loginMsg"></p>
+      </form>
+      
+        
+      </form>
+    </div>
+  </div>
+  
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
